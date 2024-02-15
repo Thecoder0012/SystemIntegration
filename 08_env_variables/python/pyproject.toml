@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "mypythonproject"
+version = "0.1.0"
+description = ""
+authors = ["Mardin <mardineliassi57@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
