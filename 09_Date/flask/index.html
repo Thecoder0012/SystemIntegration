@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Hello World</h1>
+
+    <div id="date"></div>
+
+    <script>
+        fetch("https://3483-195-249-146-101.ngrok-free.app/date")
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById("date").innerText = data.date;
+        })
+        .catch(error => {
+            console.error('Error fetching data:', error);
+        });
+
+    </script>
+</body>
+</html>
