@@ -1,3 +1,0 @@
-Name: Thecoder
-Age: 23
-Hobbies: coding, sports
